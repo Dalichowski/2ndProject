@@ -1,0 +1,239 @@
+body{
+    background-color:#eee;
+    width: 1300px;
+    height: 2500px;
+}
+p{
+    font-family: Helvetica;
+    font-size: 17px;
+}
+.topmenu {
+    overflow: hidden;
+    background-color: #eee;
+    font-family: "helvetica";
+    font-size: 50px;
+    margin-left: 75px;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .topmenu a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topmenu a:hover {
+    background-color: rgb(156, 154, 154);
+    color: black;
+  }
+  .mainblock{
+      display: flex;
+      flex-direction: column;
+      width: 1200px;
+      margin-left: 50px;
+  }
+  .block1{
+      position: relative;
+      text-align: center;
+      color: white;
+      font-size: 400%;
+      font-family: "optimus";
+  }
+  .titre{
+      position: absolute;
+      top:52%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+.block2{
+    height: 400px;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#titre{
+    color:grey;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 25px;    
+}
+.colonne1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 15px;
+}
+h4{
+    color: grey;
+    font-size: 25px;
+    text-align: center;
+}
+.block3{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.block4{
+    margin-top: 25px;
+    height: 470px;
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+}
+#coln1{
+    width: 440px;
+}
+#coln2{
+    width: 440px;;
+}
+#titre2{
+    color: grey;
+    margin-top: 0px;
+    font-size: 25px;
+}
+.colonne2{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.block5{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.block6{
+    display: flex;
+    flex-direction: column;
+    height: 340px;
+    background-color: white;
+    margin-top: 25px;
+    font-size: 20px;
+}
+#SKILLIZ{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 25px;
+}
+h1{
+    color: grey;
+    font-family: "OPTIMUSPRINCEPS";
+}
+#ski{
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+}
+#skilz{
+    margin-left: 100px;
+    width: 400px;
+    font-size: 25px;
+}
+#skilz2{
+    margin-right: 120px;
+    margin-left: 50px;
+    width: 400px;
+    font-size: 25px;
+}
+.meter{
+    height: 15px;
+    position: relative;
+    background: #eee;
+}
+.meter > span{
+    display:block;
+    height: 100%;
+    position: relative;
+    background-color: gray;
+}
+
+.block7{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.block8{
+    height: 180px;
+    background-color: white;
+    padding-top: 40px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 30px;
+}
+h5{
+    padding-bottom: 25px;
+    font-family: arial;
+}
+h5 span{
+    color: gray;
+}
+.block9{
+    height: 500px;
+    background-color: white;
+    margin-top: 25px;
+}
+.colonne3{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#titre4{
+    text-align: center;
+    font-size: 25px;
+}
+#formul{
+    margin-left: 50px;
+    font-size: 18px;
+    font-family: Arial;
+}
+textarea{
+    resize: none;
+}
+.send1{
+    float: left;
+    border: none;
+    background-color: #eee;
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px 10px;
+    margin-right: 8px;
+}
+#jondo{
+    font-size: 18px;
+    margin-right: 100px;
+}
+footer{
+    background-color: #eee;
+    height: 65px;
+    font-size: 12px;
+    font-family: arial;
+
+}
+#copyright{
+    padding-top: 25px;
+    margin-left: 100px;
+}
+#links{
+    float: right;
+    margin-right: 100px;
+    margin-top: 0px;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color:gray;
+}
